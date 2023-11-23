@@ -15,20 +15,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    dd(\App\Models\User::where('role', 'admin')->count());
     return view('welcome');
 });
 
-Route::get('/dashboard', function () {
+Route::get('/inicio', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::get('/perfil', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/perfil', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/perfil', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
        //  categories
-       Route::controller(\App\Http\Controllers\CategoryController::class)->group(function (){
+    Route::controller(\App\Http\Controllers\CategoryController::class)->group(function (){
         Route::get('/categorias', 'index')->name('category.index');
         Route::get('/categorias/crear', 'create')->name('category.create');
         Route::get('/categoria/{category}/editar', 'edit')->name('category.dit');
