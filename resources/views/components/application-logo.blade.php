@@ -1,7 +1,6 @@
 @props(['class'])
 
-<a href="{{ route('dashboard') }}" class="flex w-80 h-16">
-    <svg
+<svg
     class="{{$class}}"
     width="89"
     height="34"
@@ -132,5 +131,4 @@
             x="16.317225"
             y="6.518784">M</tspan></text>
     </g>
-    </svg>
-</a>
+</svg>
