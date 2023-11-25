@@ -15,7 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    dd(\App\Models\User::where('role', 'admin')->count());
     return view('welcome');
 });
 
@@ -31,7 +30,7 @@ Route::middleware('auth')->group(function () {
        //  categories
     Route::controller(\App\Http\Controllers\CategoryController::class)->group(function (){
         Route::get('/categorias', 'index')->name('category.index');
-        Route::get('/categorias/crear', 'create')->name('category.create');
+        Route::get('/categoria/crear', 'create')->name('category.create');
         Route::get('/categoria/{category}/editar', 'edit')->name('category.dit');
         Route::post('/categoria', 'store')->name('category.store');
         Route::put('/categoria/{category}', 'update')->name('category.update');
@@ -39,7 +38,7 @@ Route::middleware('auth')->group(function () {
     });
 
     //  products
-    Route::controller(\App\Http\Controllers\CategoryController::class)->group(function (){
+    Route::controller(\App\Http\Controllers\ProductController::class)->group(function (){
         Route::get('/productos', 'index')->name('product.index');
         Route::get('/producto/crear', 'create')->name('product.create');
         Route::get('/producto/{product}/editar', 'edit')->name('product.dit');
