@@ -1,3 +1,136 @@
-<svg viewBox="0 0 316 316" xmlns="http://www.w3.org/2000/svg" {{ $attributes }}>
-    <path d="M305.8 81.125C305.77 80.995 305.69 80.885 305.65 80.755C305.56 80.525 305.49 80.285 305.37 80.075C305.29 79.935 305.17 79.815 305.07 79.685C304.94 79.515 304.83 79.325 304.68 79.175C304.55 79.045 304.39 78.955 304.25 78.845C304.09 78.715 303.95 78.575 303.77 78.475L251.32 48.275C249.97 47.495 248.31 47.495 246.96 48.275L194.51 78.475C194.33 78.575 194.19 78.725 194.03 78.845C193.89 78.955 193.73 79.045 193.6 79.175C193.45 79.325 193.34 79.515 193.21 79.685C193.11 79.815 192.99 79.935 192.91 80.075C192.79 80.285 192.71 80.525 192.63 80.755C192.58 80.875 192.51 80.995 192.48 81.125C192.38 81.495 192.33 81.875 192.33 82.265V139.625L148.62 164.795V52.575C148.62 52.185 148.57 51.805 148.47 51.435C148.44 51.305 148.36 51.195 148.32 51.065C148.23 50.835 148.16 50.595 148.04 50.385C147.96 50.245 147.84 50.125 147.74 49.995C147.61 49.825 147.5 49.635 147.35 49.485C147.22 49.355 147.06 49.265 146.92 49.155C146.76 49.025 146.62 48.885 146.44 48.785L93.99 18.585C92.64 17.805 90.98 17.805 89.63 18.585L37.18 48.785C37 48.885 36.86 49.035 36.7 49.155C36.56 49.265 36.4 49.355 36.27 49.485C36.12 49.635 36.01 49.825 35.88 49.995C35.78 50.125 35.66 50.245 35.58 50.385C35.46 50.595 35.38 50.835 35.3 51.065C35.25 51.185 35.18 51.305 35.15 51.435C35.05 51.805 35 52.185 35 52.575V232.235C35 233.795 35.84 235.245 37.19 236.025L142.1 296.425C142.33 296.555 142.58 296.635 142.82 296.725C142.93 296.765 143.04 296.835 143.16 296.865C143.53 296.965 143.9 297.015 144.28 297.015C144.66 297.015 145.03 296.965 145.4 296.865C145.5 296.835 145.59 296.775 145.69 296.745C145.95 296.655 146.21 296.565 146.45 296.435L251.36 236.035C252.72 235.255 253.55 233.815 253.55 232.245V174.885L303.81 145.945C305.17 145.165 306 143.725 306 142.155V82.265C305.95 81.875 305.89 81.495 305.8 81.125ZM144.2 227.205L100.57 202.515L146.39 176.135L196.66 147.195L240.33 172.335L208.29 190.625L144.2 227.205ZM244.75 114.995V164.795L226.39 154.225L201.03 139.625V89.825L219.39 100.395L244.75 114.995ZM249.12 57.105L292.81 82.265L249.12 107.425L205.43 82.265L249.12 57.105ZM114.49 184.425L96.13 194.995V85.305L121.49 70.705L139.85 60.135V169.815L114.49 184.425ZM91.76 27.425L135.45 52.585L91.76 77.745L48.07 52.585L91.76 27.425ZM43.67 60.135L62.03 70.705L87.39 85.305V202.545V202.555V202.565C87.39 202.735 87.44 202.895 87.46 203.055C87.49 203.265 87.49 203.485 87.55 203.695V203.705C87.6 203.875 87.69 204.035 87.76 204.195C87.84 204.375 87.89 204.575 87.99 204.745C87.99 204.745 87.99 204.755 88 204.755C88.09 204.905 88.22 205.035 88.33 205.175C88.45 205.335 88.55 205.495 88.69 205.635L88.7 205.645C88.82 205.765 88.98 205.855 89.12 205.965C89.28 206.085 89.42 206.225 89.59 206.325C89.6 206.325 89.6 206.325 89.61 206.335C89.62 206.335 89.62 206.345 89.63 206.345L139.87 234.775V285.065L43.67 229.705V60.135ZM244.75 229.705L148.58 285.075V234.775L219.8 194.115L244.75 179.875V229.705ZM297.2 139.625L253.49 164.795V114.995L278.85 100.395L297.21 89.825V139.625H297.2Z"/>
-</svg>
+@props(['class'])
+
+<a href="{{ route('dashboard') }}" class="flex w-80 h-16">
+    <svg
+    class="{{$class}}"
+    width="89"
+    height="34"
+    viewBox="0 0 23.547932 8.995839"
+    version="1.1"
+    id="svg1"
+    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+    sodipodi:docname="logo.svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg">
+    <sodipodi:namedview
+        id="namedview1"
+        pagecolor="#ffffff"
+        bordercolor="#000000"
+        borderopacity="0.25"
+        inkscape:showpageshadow="2"
+        inkscape:pageopacity="0.0"
+        inkscape:pagecheckerboard="0"
+        inkscape:deskcolor="#d1d1d1"
+        inkscape:document-units="mm"
+        inkscape:zoom="2.3579016"
+        inkscape:cx="74.854692"
+        inkscape:cy="12.087018"
+        inkscape:window-width="1024"
+        inkscape:window-height="577"
+        inkscape:window-x="-8"
+        inkscape:window-y="-8"
+        inkscape:window-maximized="1"
+        inkscape:current-layer="layer1" />
+    <defs
+        id="defs1" />
+    <g
+        inkscape:label="Capa 1"
+        inkscape:groupmode="layer"
+        id="layer1">
+        <path
+        style="fill:none;stroke-width:0.807504;stroke-dasharray:none;stroke-opacity:1"
+        id="path1"
+        sodipodi:type="arc"
+        sodipodi:cx="6.1542759"
+        sodipodi:cy="1.5512877"
+        sodipodi:rx="3.7029746"
+        sodipodi:ry="3.7029746"
+        sodipodi:start="0"
+        sodipodi:end="5.7082507"
+        sodipodi:open="true"
+        sodipodi:arc-type="arc"
+        d="M 9.8572505,1.5512877 A 3.7029746,3.7029746 0 0 1 6.6846872,5.2160775 3.7029746,3.7029746 0 0 1 2.6032528,2.6011712 a 3.7029746,3.7029746 0 0 1 2.00332,-4.4139043 3.7029746,3.7029746 0 0 1 4.6553425,1.35041757"
+        transform="rotate(32.887468)" />
+        <path
+        style="fill:none;stroke-width:0.807504;stroke-dasharray:none;stroke-opacity:1"
+        id="path1-1"
+        sodipodi:type="arc"
+        sodipodi:cx="-11.840747"
+        sodipodi:cy="4.353785"
+        sodipodi:rx="3.7029746"
+        sodipodi:ry="3.7029746"
+        sodipodi:start="2.9847993"
+        sodipodi:end="5.617216"
+        sodipodi:open="true"
+        sodipodi:arc-type="arc"
+        d="m -15.498297,4.9320108 a 3.7029746,3.7029746 0 0 1 2.17682,-3.9722587 3.7029746,3.7029746 0 0 1 4.3924468,1.1062552"
+        transform="rotate(-137.93526)" />
+        <path
+        style="fill:none;stroke-width:0.807504;stroke-dasharray:none;stroke-opacity:1"
+        id="path1-10"
+        sodipodi:type="arc"
+        sodipodi:cx="-18.078491"
+        sodipodi:cy="7.9959245"
+        sodipodi:rx="3.7029746"
+        sodipodi:ry="3.7029746"
+        sodipodi:start="0"
+        sodipodi:end="5.707971"
+        sodipodi:open="true"
+        sodipodi:arc-type="arc"
+        d="m -14.375517,7.9959245 a 3.7029746,3.7029746 0 0 1 -3.172307,3.6647525 3.7029746,3.7029746 0 0 1 -4.081543,-2.6143724 3.7029746,3.7029746 0 0 1 2.002467,-4.4140761 3.7029746,3.7029746 0 0 1 4.655485,1.3492237"
+        transform="rotate(-142.55543)" />
+        <path
+        style="fill:none;stroke-width:0.807504;stroke-dasharray:none;stroke-opacity:1"
+        id="path1-1-9"
+        sodipodi:type="arc"
+        sodipodi:cx="11.456007"
+        sodipodi:cy="-5.4696593"
+        sodipodi:rx="3.7029746"
+        sodipodi:ry="3.7029746"
+        sodipodi:start="2.9480317"
+        sodipodi:end="5.4945536"
+        sodipodi:open="true"
+        sodipodi:arc-type="arc"
+        d="m 7.8221837,-4.7573753 a 3.7029746,3.7029746 0 0 1 1.8875267,-3.9776276 3.7029746,3.7029746 0 0 1 4.3562146,0.6384921"
+        transform="rotate(47.006269)" />
+        <text
+        xml:space="preserve"
+        style="font-size:4.23255px;fill-opacity:1;stroke-width:0.33618;stroke-dasharray:none;stroke-opacity:1"
+        x="2.9879675"
+        y="5.7245302"
+        id="text1"
+        transform="scale(0.91551658,1.0922795)"><tspan
+            sodipodi:role="line"
+            id="tspan1"
+            style="fill-opacity:1;stroke-width:0.33618;stroke-dasharray:none"
+            x="2.9879675"
+            y="5.7245302">C</tspan></text>
+        <text
+        xml:space="preserve"
+        style="font-size:4.14825px;fill-opacity:1;stroke-width:0.336179;stroke-dasharray:none;stroke-opacity:1"
+        x="11.979916"
+        y="5.4942732"
+        id="text2"
+        transform="scale(0.87553615,1.1421573)"><tspan
+            sodipodi:role="line"
+            id="tspan2"
+            style="fill-opacity:1;stroke-width:0.336179;stroke-dasharray:none"
+            x="11.979916"
+            y="5.4942732">A</tspan></text>
+        <text
+        xml:space="preserve"
+        style="font-size:4.86736px;fill-opacity:1;stroke-width:0.345106;stroke-dasharray:none;stroke-opacity:1"
+        x="16.317225"
+        y="6.518784"
+        id="text3"
+        transform="scale(1.0511143,0.95137133)"><tspan
+            sodipodi:role="line"
+            id="tspan3"
+            style="fill-opacity:1;stroke-width:0.345106;stroke-dasharray:none"
+            x="16.317225"
+            y="6.518784">M</tspan></text>
+    </g>
+    </svg>
+</a>
